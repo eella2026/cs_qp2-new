@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Philippine Science High School-Central Luzon Campus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Bungee&family=Comfortaa:wght@600&family=Josefin+Sans:ital,wght@1,300&family=Manrope&family=Nunito:wght@300&family=Open+Sans&family=Poppins:ital@1&family=Shadows+Into+Light&family=Staatliches&display=swap" rel="stylesheet">
+  <style>
+    /* The sidebar menu */
+    .sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #00596C; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 80px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color:#003A46; text-decoration: underline;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height and width is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body{
+    background-color: #efe9f2;
+   }
+   table{
+    text-align: center; margin-left: auto; margin-right: auto;
+   }
+   th,td{
+    padding: 15pt; font-family: 'Manrope', sans-serif;
+   }
+   p{
+    font-size: 13.5pt;
+   }
+   td{
+    font-size: 11pt;
+   }
+   #grades{
+    border-collapse: collapse; width: 100%;
+   }
+   tr:nth-child(even){
+    background-color: #F5F5F5;
+   }
+   tr:nth-child(odd){
+    background-color: #D9D9D9;
+   }
+   #grades tr:hover{
+    background-color:#FFFFFF; font-family: 'Poppins', sans-serif;
+   }
+   h2, h3{
+    font-family: 'Nunito', sans-serif;
+   }
+   h1{
+    font-family: 'Nunito', sans-serif;
+   }
+   img{
+    height: 25px;
+   }
+   #pshs{
+    height:65pt;
+    width: 170pt;
+   }
+</style>
+</head>
+<body>
+    <!-- Side navigation -->
+  <div class="sidenav">
+    <img id="pshs" src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.15752-9/325018605_533847692055562_3686322851849568260_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGUXvcb7atqp7WxKvKWLR0QWpQXFY1uQT1alBcVjW5BPQiwE5p-eN7VKqK7LNEvXTquYD--5Jaae7YsCugmFQOk&_nc_ohc=01nO9A1ALG4AX_ENBt0&_nc_ht=scontent.fmnl8-1.fna&oh=03_AdTO1cfcW1_dJjV1fyVBDMReW9W1ZkV_EyfApi07GjUnmQ&oe=63F04AE1" alt="logo">
+    <a href="homepage.html">DASHBOARD</a>
+    <a href="courses.html">COURSES</a>
+    <a href="author.html">AUTHOR</a>
+    <a href="home.html">LOG OUT</a>
+  </div>
+   <!-- Page content -->
+  <div class="main">
+    <h1>Grades</h1>
+    <hr>
+    <h2>Physics Grades</h2><h3>Tentative Grade: 1.00</h3>
+    <hr>
+    <div class="table-responsive">
+    <table id="grades">
+        <tr>
+            <th><p>Item Name</p><img src="https://cdn-icons-png.flaticon.com/512/7688/7688747.png" alt="test"></th>
+            <th><p>Due Date</p><img src="https://cdn-icons-png.flaticon.com/512/3188/3188190.png" alt="date"></th>
+            <th><p>Grade</p><img src="https://cdn-icons-png.flaticon.com/512/3528/3528232.png" alt="score"></th>
+            <th><p>Feedback</p><img src="https://cdn-icons-png.flaticon.com/512/2839/2839058.png" alt="comment"></th>
+        </tr>
+        <tr>
+            <td>Formative Assesment 1</td>
+            <td>11/01/22</td>
+            <td>15/15</td>
+            <td>Great job!</td>
+        </tr>
+        <tr>
+            <td>Formative Assessment 2</td>
+            <td>11/12/22</td>
+            <td>10/10</td>
+            <td>Student is very diligent!</td>
+        </tr>
+        <tr>
+            <td>Formative Assessment 3</td>
+            <td>11/30/22</td>
+            <td>20/20</td>
+            <td>Keep up the good work!</td>
+        </tr>
+        <tr>
+            <td>Formative Assessment 4</td>
+            <td>12/02/22</td>
+            <td>9/10</td>
+            <td>Nice!</td>
+        </tr>
+        <tr>
+            <td>Alternative Assessment 1</td>
+            <td>12/03/22</td>
+            <td>18/20</td>
+            <td>Student forgot to show their work</td>
+        </tr>
+        <tr>
+            <td>Alternative Assessment 2</td>
+            <td>12/11/22</td>
+            <td>20/20</td>
+            <td>Student is consistent in getting high scores</td>
+        </tr>
+        <tr>
+            <td>Long Test 1</td>
+            <td>11/26/22</td>
+            <td>23/25</td>
+            <td>Student is very excellent!</td>
+        </tr>
+        <tr>
+            <td>Long Test 2</td>
+            <td>1/25/23</td>
+            <td>25/25</td>
+            <td>They are one of the most exceptional students in the class!</td>
+        </tr>
+    </table>
+    </div>
+      </div>
+</body>
